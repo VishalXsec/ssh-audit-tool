@@ -1,0 +1,12 @@
+[
+    {
+        "severity": "LOW",
+        "check": "sshd_config",
+        "issue": "X11Forwarding yes"
+    },
+    {
+        "severity": "HIGH",
+        "check": "cipher",
+        "issue": "3des-cbc"
+    }
+]
