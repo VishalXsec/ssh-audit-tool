@@ -44,22 +44,27 @@ python3 ssh_audit.py --html
 
 ![Terminal Output](assets/terminal.png)
 
+```
 ============================================================
-SSH AUDIT TOOL - PRO VERSION
+          SSH AUDIT TOOL - PRO VERSION
+============================================================
 [i] authorized_keys not found
 [LOW]  X11Forwarding yes
 [HIGH] Weak cipher: 3des-cbc
+
 ============================================================
 TOTAL ISSUES FOUND: 2
 Security Score: 80/100
 [+] JSON report generated
 [+] HTML report generated
+```
 
 ## 📄 Report
 
 SSH Audit Tool generates two types of reports:
-reports/report.json    # Machine-readable JSON
-reports/report.html    # Human-readable HTML dashboard
+
+- `reports/report.json` — Machine-readable JSON
+- `reports/report.html` — Human-readable HTML dashboard
 
 ![HTML Report](assets/report.png)
 
